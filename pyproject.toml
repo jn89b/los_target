@@ -1,0 +1,23 @@
+[project]
+name = "los-target"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "jn89b", email = "jnguyenblue2804@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "folium>=0.17",
+    "mgrs>=1.5",
+    "pyproj>=3.6",
+    "streamlit>=1.38",
+    "streamlit-folium>=0.23",
+]
+
+[project.scripts]
+los-target = "los_target:main"
+
+[build-system]
+requires = ["uv_build>=0.12.9,<0.13.0"]
+build-backend = "uv_build"

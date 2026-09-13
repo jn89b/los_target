@@ -1,0 +1,42 @@
+[
+  {
+    "computed_at": "2026-09-13T22:28:47.214176",
+    "target_id": "TARGET-1",
+    "target": {
+      "lat_deg": 13.43876453387683,
+      "lon_deg": 144.64367792212798
+    },
+    "target_speed_mps": 1.0,
+    "target_bearing_deg": 20.0,
+    "uas_mode": "LOITER",
+    "uas_speed_mps": 25.0,
+    "engagement_delay_s": 60.0,
+    "waypoint": {
+      "lat_deg": 13.43964500817213,
+      "lon_deg": 144.6440053371594,
+      "mgrs": "55PBQ44908697"
+    },
+    "total_time_from_now_s": 103.66273906259633,
+    "command_bearing_deg": 28.650977951086222
+  },
+  {
+    "computed_at": "2026-09-13T22:47:38.354230",
+    "target_id": "TARGET-1",
+    "target": {
+      "lat_deg": 13.4387996,
+      "lon_deg": 144.6575516
+    },
+    "target_speed_mps": 0.96,
+    "target_bearing_deg": 89.9,
+    "uas_mode": "LOITER",
+    "uas_speed_mps": 25.0,
+    "engagement_delay_s": 5.0,
+    "waypoint": {
+      "lat_deg": 13.438800844966549,
+      "lon_deg": 144.6582985434619,
+      "mgrs": "55PBQ46458686"
+    },
+    "total_time_from_now_s": 84.25767910646519,
+    "command_bearing_deg": 62.822521162851324
+  }
+]

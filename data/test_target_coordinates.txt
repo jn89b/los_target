@@ -1,0 +1,48 @@
+Test coordinates for verifying "Estimate from history" bearing/speed approximation.
+Each case: save entry 1, then entry 2 with the later timestamp (same date, times
+that many minutes apart). Use a distinct Target ID per case.
+
+=== TEST-EAST (expect bearing ~90.0 deg, speed ~5.0 m/s) ===
+Target ID: TEST-EAST
+
+Entry 1
+  Time offset: T
+  Lat: 13.4388000
+  Lon: 144.6437000
+  Coordinate string: 13.4388000, 144.6437000
+
+Entry 2
+  Time offset: T + 5 min
+  Lat: 13.4387996
+  Lon: 144.6575516
+  Coordinate string: 13.4387996, 144.6575516
+
+=== TEST-NE (expect bearing ~45.0 deg, speed ~8.0 m/s) ===
+Target ID: TEST-NE
+
+Entry 1
+  Time offset: T
+  Lat: 13.5000000
+  Lon: 144.7000000
+  Coordinate string: 13.5000000, 144.7000000
+
+Entry 2
+  Time offset: T + 10 min
+  Lat: 13.5306765
+  Lon: 144.7313545
+  Coordinate string: 13.5306765, 144.7313545
+
+=== TEST-SW (expect bearing ~225.0 deg, speed ~2.0 m/s) ===
+Target ID: TEST-SW
+
+Entry 1
+  Time offset: T
+  Lat: 11.3283000
+  Lon: 146.2276000
+  Coordinate string: 11.3283000, 146.2276000
+
+Entry 2
+  Time offset: T + 15 min
+  Lat: 11.3167935
+  Lon: 146.2159411
+  Coordinate string: 11.3167935, 146.2159411
